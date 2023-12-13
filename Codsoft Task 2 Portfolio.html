@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahavir Bhandari - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #a40cdb;
+        }
+
+        header {
+            background-color: #333333;
+            color: #ede2e2;
+            text-align: center;
+            padding: 2em 0;
+            border-bottom: 5px solid #e87416;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header img {
+            max-width: 150px;
+            border-radius: 50%;
+            animation: pulse 2s infinite alternate;
+        }
+
+        @keyframes pulse {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.05);
+            }
+        }
+
+        header h1 {
+            margin-top: 10px;
+            font-size: 2em;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header p {
+            font-size: 1.2em;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #e87416;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h2, h3 {
+            color: #333;
+            animation: colorChange 2s infinite alternate;
+        }
+
+        @keyframes colorChange {
+            from {
+                color: #333;
+            }
+            to {
+                color: #11e091;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            animation: scale 1.5s infinite alternate;
+        }
+
+        @keyframes scale {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.03);
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            animation: slideInLeft 1s ease-in-out;
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #11e083;
+            text-decoration: none;
+            animation: rotateLink 2s infinite linear;
+        }
+
+        @keyframes rotateLink {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        a:hover {
+            text-decoration: underline;
+            animation: bounce 0.5s ease-in-out;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #12dd59;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="C:\Users\mahav\Downloads\edit.jpg" alt="Mahavir Bhandari">
+        <h1>Mahavir Bhandari</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Welcome to my portfolio! I am a passionate web developer with expertise in HTML, CSS, and JavaScript. Hello! I'm currently a Third-Year Computer Engineering student. 
+            My academic journey has provided me with a solid foundation in programming, algorithms, and hardware design.
+             I'm passionate about bringing creative ideas to life through technology and enjoy exploring the intersections of software and hardware. Eager to tackle real-world challenges, I'm continuously learning and seeking opportunities to contribute to the dynamic field of computer engineering.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <!-- Add more projects with links as needed -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: mahavirbhandari108@gmail.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/mahavir-bhandari-b65156255/" target="_blank">Mahavir@LinkedIn</a></li>
+            <li>GitHub: <a href="https://github.com/mahavirbhandari108/-_-.1" target="_blank">Mahavir@GitHub</a></li>
+            <li>Download Resume: <a href="https://drive.google.com/file/d/1k032WmzCvdzNtIK5Gn2PX4w8LqfPV0Xd/view?usp=drive_link" download>Resume</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2023 Mahavir_Bhandari
+    </footer>
+
+</body>
+</html>
